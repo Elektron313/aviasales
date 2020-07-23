@@ -1,0 +1,16 @@
+.price-range {
+
+  &__from {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  &__to {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+}

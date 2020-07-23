@@ -1,0 +1,15 @@
+.main {
+
+  &__panel-settings {
+    border-right: solid darkgray 1px;
+  }
+
+  &__list-result {
+    padding: 20px;
+
+    &-btn {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

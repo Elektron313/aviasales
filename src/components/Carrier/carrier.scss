@@ -1,0 +1,29 @@
+.carrier {
+  margin-bottom: 20px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5a9fd1;
+    padding: 15px 15px;
+    color: #fff;
+
+    &-price {
+      display: flex;
+      flex-direction: column;
+      & > span {
+        font-size: 20px;
+        text-align: right;
+      }
+    }
+  }
+
+  &__from {
+    border-bottom: 3px solid #5a9fd1;
+  }
+
+  &__button {
+    width: 100%;
+  }
+}

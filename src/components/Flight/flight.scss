@@ -1,0 +1,28 @@
+.flight{
+  padding: 10px 20px;
+
+  &__path {
+    border-bottom: 1px solid darkgray;
+    padding-bottom: 5px;
+  }
+
+  &__time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid darkgray;
+    padding: 5px 15px;
+    &  span {
+      color: #5a9fd1;
+      font-weight: 600;
+    }
+    &-path :nth-child(2) {
+      color: orange;
+      font-size: 13px;
+    }
+  }
+
+  &__airlane {
+    padding: 10px 0;
+  }
+}
